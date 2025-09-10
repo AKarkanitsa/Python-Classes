@@ -1,0 +1,12 @@
+N = int(input())
+str1 = '   _~_   '
+str2 = '  (o o)  '
+str3 = ' /  V  \\ '
+str4 = '/(  _  )\\'
+str5 = '  ^^ ^^  '
+str1 = (str1 + ' ') * N
+str2 = (str2 + ' ') * N
+str3 = (str3 + ' ') * N
+str4 = (str4 + ' ') * N
+str5 = (str5 + ' ') * N
+print(str1, str2, str3, str4, str5, sep='\n')
